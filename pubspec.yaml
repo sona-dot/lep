@@ -35,8 +35,14 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets:
-    - assets/icons/facebook_icon.png
-    - assets/fonts/Montserrat-Regular.ttf
+    - assets/icons/facebook-icon.png
+    - assets/icons/back-button-icon.png
+
+  fonts:
+    - family: Comfortaa
+      fonts:
+        - asset: fonts/comfortaa/comfortaa-regular.ttf
+          style: normal
 
 
   # The following line ensures that the Material Icons font is
