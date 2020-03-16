@@ -13,13 +13,14 @@ class RegisterScreen extends StatelessWidget {
         child: Column(
         children: <Widget>[
           Material (
+            color: Color(0x004A6D64),
             child: Column(
               children: <Widget>[
                 Container(
-                color:Color(0xff4A6D64),
+                color:Color(0x004A6D64),
                 child:Text("Register ",
                 style: const TextStyle(
-                    color:  const Color(0xffe5e5e5),
+                    color:  const Color(0xffe5e5ff),
                     fontWeight: FontWeight.w400,
                     fontFamily: "Montserrat",
                     fontStyle:  FontStyle.normal,
