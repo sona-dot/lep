@@ -16,9 +16,7 @@ class RegisterScreen extends StatelessWidget {
             color: Color(0x004A6D64),
             child: Column(
               children: <Widget>[
-                Container(
-                color:Color(0x004A6D64),
-                child:Text("Register ",
+                Text("Register ",
                 style: const TextStyle(
                     color:  const Color(0xffe5e5ff),
                     fontWeight: FontWeight.w400,
@@ -27,14 +25,12 @@ class RegisterScreen extends StatelessWidget {
                     fontSize: 45.0
                 )
                 ),
-                ),
                 Row (
                   children: <Widget>[
-                    Container(
-                      color:Color(0xff4A6D64),
-                      child:ImageIcon(new AssetImage('assets/icons/Group 51.svg')
+                     ImageIcon(new AssetImage('assets/icons/facebook_icon.png')
                      ),
-                    ),
+                     ImageIcon(new AssetImage('assets/icons/gmail_icon.png')
+                     ),
                   ],
                 )
               ],
