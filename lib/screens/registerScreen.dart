@@ -48,8 +48,10 @@ class RegisterScreen extends StatelessWidget {
                           hintText: 'Password'),
                     ),
                   ),
-                  Flexible(
-                    child: FlatButton(
+                  Container (
+                    width: 380,
+                    height: 58,
+                    child:  FlatButton(
                       color: Colors.black,
                       textColor: Colors.white,
                       padding: EdgeInsets.all(8.0),
@@ -62,7 +64,7 @@ class RegisterScreen extends StatelessWidget {
                         style: TextStyle(fontSize: 20.0),
                       ),
                     ),
-                  )
+                  ),
                 ],
               ),
             )
